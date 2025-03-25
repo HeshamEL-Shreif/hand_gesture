@@ -4,7 +4,7 @@ import mediapipe as mp
 import joblib
 from preprocess_landmark import preprocess_landmarks
 
-model_path = "rf_model.pkl"
+model_path = "models/rf_model.pkl"
 model = joblib.load(model_path)  
 
 mp_hands = mp.solutions.hands

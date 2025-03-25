@@ -1,7 +1,7 @@
 import numpy as np
 import joblib
 
-scaler_path = "scaler.pkl"
+scaler_path = "scaler/scaler.pkl"
 scaler = joblib.load(scaler_path) 
 
 def preprocess_landmarks(hand_landmarks):
