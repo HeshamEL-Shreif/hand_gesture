@@ -31,7 +31,7 @@ This project focuses on classifying hand gestures using landmark data generated 
 
 ## Repository Contents
 - `hand_landmark_data.csv`: dataset
-- `hand.ipynb': the full project notebook
+- `hand.ipynb`: the full project notebook
 - `random_forest.pkl`, `svm.pkl`, `knn.pkl`, etc.: Trained model files
 - `hand_gesture.py`: project script
 - `preprocess_landmark.py`: landmark preprocessing
